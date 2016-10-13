@@ -7,7 +7,7 @@ import datetime
 import time
 import pytz 
 import os 
-url="https://10.0.11.8:443/BCZiBanq-1.4/WSBCZiBank"
+url="https://192.168.122.20"
 path="xml"
 headers = {'content-type': 'text/xml'}
 report=open('report.txt','w+')
