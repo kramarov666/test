@@ -28,7 +28,7 @@ for name in os.listdir(path):
 	taskid_regex=taskid_regex + 1
 
 	#taskid wholestring
-	taskid_regex_wholestring="(<exttaskid>.+?</exttaskid>)"
+	i1taskid_regex_wholestring="(<exttaskid>.+?</exttaskid>)"
 	taskid_pattern_wholestring=re.compile(taskid_regex_wholestring)
 	#taskid_str_wholestring=''.join(taskid_pattern_wholestring)
 	taskid_pure_wholestring=re.findall(taskid_pattern_wholestring,body)
